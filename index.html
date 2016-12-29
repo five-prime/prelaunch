@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+<title>M1 Jerky | Pre-Launch</title>
+
+<!--
+CSS
+-->
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- Compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+<link href="styles/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+<!--- SO MANY FAVICONS --->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+
+<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
+
+<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
+
+<link rel="manifest" href="/favicon/manifest.json">
+
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+<nav class="black lighten-1" role="navigation">
+
+<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">M1 Jerky</a>
+
+<ul class="right hide-on-med-and-down">
+
+<li><a href="contact.html">Contact Us</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+<div id="index-banner">
+
+<div class="container" id="signup">
+
+<form class="col s12">
+
+<div class="row">
+
+<div class="s12 center" id="closer"><a class="waves-effect waves-light btn red lighten-1"><i class="material-icons left">close</i>Close</a>
+
+</div>
+
+<br><br>
+
+<h3 class="black-text center">Sign up to receive notifications about our launch</h3>
+
+<hr>
+
+<div class="row">
+
+<form class="col s12">
+
+<div class="row">
+
+<div class="input-field col s12 m4">
+
+<i class="material-icons prefix ">perm_identity</i><input id="first_name" type="text" class="validate " placeholder="First Name">
+
+</div>
+
+<div class="input-field col s12 m4">
+
+<i class="material-icons prefix ">person</i><input id="last_name" type="text" class="" placeholder="Last Name">
+
+</div>
+
+<div class="input-field col s12 m4">
+
+<i class="material-icons prefix ">email</i><input id="email" type="text" class="validate " placeholder="E-mail">
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="s12 center"><a class="waves-effect waves-light btn orange darken-2" onclick="sendSignupData()"><i class="material-icons left">star</i>Sign Up</a>
+
+</div>
+
+</div>
+
+<h5 class="black-text center">We will only use your e-mail address to send you updates, and only as long as you want them</h5>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="container" id="lander">
+
+<div class="section">
+
+<div class="row">
+
+<div class="col s12 center-align">
+
+<img src="imgs/logo.png" alt="m1 jerky logo with an m1a1 tank in the background" class="responsive-img">
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<!--   Icon Section   -->
+
+<div class="row">
+
+<div class="col s12 m6">
+
+<div class="card">
+
+<div class="card-image waves-effect waves-block waves-light">
+
+<img class="activator" style="max-height: 15rem" src="imgs/lav.jpg" alt="LAV-25, LAV-L in Kuwait 2007">
+
+</div>
+
+<div class="card-content">
+
+<span class="card-title activator grey-text text-darken-4">Pre-Launch Hype<i class="material-icons right">more_vert</i></span>
+
+<p><a href="#">more...</a></p>
+
+</div>
+
+<div class="card-reveal">
+
+<span class="card-title grey-text text-darken-4">Pre-Launch HYPE<i class="material-icons right">close</i></span>
+
+<p>We are just setting up our pre-launch information newsletter, sign up to receive updates</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col s12 m6">
+
+<div class="card">
+
+<div class="card-image waves-effect waves-block waves-light">
+
+<img class="activator" style="max-height: 15rem" src="imgs/hmmwv.jpg" alt="hmmwv's on a hill">
+       </div>
+       <div class="card-content">
+         <span class="card-title activator grey-text text-darken-4">Contact Us<i class="material-icons right">more_vert</i></span>
+         <p><a href="#">more...</a></p>
+       </div>
+       <div class="card-reveal">
+         <span class="card-title grey-text text-darken-4">Contact Us<i class="material-icons right">close</i></span>
+         <p>Follow us on social media, send us some cool pictures, let us know you're excited! <a href="#">more...</a></p>
+       </div>
+     </div>
+   </div>    <div class="col s12 m6">
+              <div class="card">
+           <div class="card-image waves-effect waves-block waves-light">
+             <img class="activator" style="max-height: 15rem" src="imgs/starlogo.png" alt="M1 Jerky logo with a blue star background">
+           </div>
+           <div class="card-content">
+             <span class="card-title activator grey-text text-darken-4">About Us<i class="material-icons right">more_vert</i></span>
+             <p><a href="#">more...</a></p>
+           </div>
+           <div class="card-reveal">
+             <span class="card-title grey-text text-darken-4">About Us<i class="material-icons right">close</i></span>
+             <p>See our story, learn about us and what we're trying to do <a href="#">more...</a></p>
+           </div>
+         </div>
+            </div><div class="col s12 m6">
+                       <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" style="max-height: 15rem" src="imgs/steak.jpg" alt="delicious steak and herbs">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Jerky<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">more...</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Jerky<i class="material-icons right">close</i></span>
+                      <p>Learn about our products <a href="#">more...</a></p>
+                    </div>
+                  </div>
+                     </div>
+
+      </div>
+
+    </div>
+    <br><br>
+
+
+  </div>
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+        </div>
+
+        <div class="col l4 s12">
+          <h5 class="white-text">Contact Us</h5>
+          <ul>
+            <li><a class="" href="#!">Facebook: M1 Jerky</a></li>
+            <li><a class="" href="https://twitter.com/m1jerky" target="blank_">Twitter: @m1jerky</a></li>
+            <li><a class="" href="mailto:sales@m1jerky.com">E-mail: sales@m1jerky.com</a></li>
+            <li class="white-text">Phone: (661)555-5555<li>
+            <li class="white-text">Address: 1121 W. Valley Bld Suite I#247 <br>Tehachapi, CA<br> 93561</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+
+    </div>
+  </footer>
+
+  <!--- Based FireBASE --->
+
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAnFW3GnB4_dwkcXlbnM9_I9xULblr_WBA",
+    authDomain: "m1jerkyuserbase.firebaseapp.com",
+    databaseURL: "https://m1jerkyuserbase.firebaseio.com",
+    storageBucket: "m1jerkyuserbase.appspot.com",
+    messagingSenderId: "401393335298"
+  };
+  firebase.initializeApp(config);
+</script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+
+  <script src="scripts/app.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89470665-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  </body>
+</html>
+<!--- All images are used with full permission of their owners, or freely available under CC0 1.0 --->
+<!--- Stock photos from www.pixabay.com --->
+<!--- Font from CC0 1.0 collection on www.dafont.com --->
